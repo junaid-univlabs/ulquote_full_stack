@@ -1,0 +1,23 @@
+.ul-brand { display:flex; align-items:center; gap:12px; }
+.ul-brand-link { display:flex; align-items:center; gap:12px; text-decoration:none; }
+.ul-brand-logo { width:200px; height:200px; object-fit:contain; display:block; }
+.ul-brand-text { display:flex; flex-direction:column; line-height:1; }
+.ul-logo-accent { font-size:18px; color:var(--accent); display:block; }
+.ul-logo-sub { font-size:12px; color:#111; display:block; }
+
+@media (max-width:760px){
+  .ul-brand-logo { width:200px; height:50px; }
+  .ul-logo-accent { font-size:16px; }
+  .ul-logo-sub { font-size:11px; }
+}
+/* NAVBAR */
+.ul-nav{background:#f2f4f6;border-bottom:1px solid #eef2f5}
+.ul-nav-row{display:flex;align-items:center;gap:16px;height:72px}
+.ul-brand-link{text-decoration:none;display:flex;align-items:baseline;gap:8px}
+.ul-logo-accent{color:var(--accent);font-size:20px}
+.ul-logo-sub{color:#111;font-size:40px}
+.ul-nav-toggle{display:none;background:transparent;border:0;padding:8px;cursor:pointer}
+.ul-hamburger{width:20px;height:2px;background:#222;display:block;position:relative}
+.ul-hamburger::after,.ul-hamburger::before{content:"";position:absolute;left:0;right:0;height:2px;background:#222}
+.ul-hamburger::before{top:-6px}
+.ul-hamburger::after{bottom:-6px}
