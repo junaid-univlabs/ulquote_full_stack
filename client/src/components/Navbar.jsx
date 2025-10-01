@@ -34,7 +34,7 @@ export default function Navbar() {
         <nav className="ul-links" aria-label="Primary">
           <Link to="/">Home</Link>
           <Link to="/features">Features</Link>
-          <Link to="/pricing">Pricing</Link>
+          {/* <Link to="/pricing">Pricing</Link> */}
           <Link to="/about">About</Link>
           <Link to="/news">News</Link>
           <Link to="/contact">Contact</Link>
